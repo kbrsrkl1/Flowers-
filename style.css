@@ -159,11 +159,21 @@ html{
     text-align: center;
 }
 
+.menu h4{
+    width: 30%;
+    height: 90%;
+    margin-left: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: -125px;
+}
+
 video {
-    width: 80%;
+    padding: 20px;
+    width: 120%;
     height: auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 7px;
+    
 }
 
 
@@ -205,3 +215,19 @@ video {
     }
 }
 
+
+
+
+/*
+        <div class="content">
+            <h5>
+                Why Choose Us
+            </h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quos illo corporis omnis deserunt voluptas eos magni 
+                deleniti dicta hic provident illum debitis, ut quidem excepturi quisquam laudantium 
+                quibusdam sapiente consectetur? Sapiente temporibus ipsa doloremque placeat autem iste eos, reprehenderit repellat.
+            </p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
