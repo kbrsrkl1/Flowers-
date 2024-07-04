@@ -159,7 +159,7 @@ html{
     max-width: 100%;
     text-align: center;
     border-radius: 10px;
-    
+    margin-left: 35px;
 }
 
 video {
@@ -168,29 +168,30 @@ video {
     height: auto;
     border-radius: 30px;
     padding: 20px;
+    border:2px solid rgba(248, 250, 232, 0.641);
+    box-shadow: 5px 5px 45px 5px rgba(101, 101, 100, 0.433);
+    margin-top: 35px;
 }
 
 .overlay {
     position:absolute;
     top: 45%;
     right: 61%;
-    width: 560px;
-    background-color: rgba(252, 255, 224, 0.819);
+    width: 550px;
+    background-color: rgba(252, 255, 224, 0.641);
     color: rgba(0, 0, 0, 0.7);
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    width: 80%;
     max-width: 750px;
-    
 }
 
 
 h4 {
     font-size: 1.2rem;
     position: relative;
-    left: 25%;
-    width: 550px;
+    left: 2%;
+    width: 510px;
 }
 
 
@@ -217,7 +218,7 @@ p{
     display: inline-block;
     margin-top: 3rem;
     border-radius :5rem;
-    background: #333;
+    background: #605f5f;
     color: #000000;
     padding: .6rem 1.3rem;
     cursor: pointer;
