@@ -235,6 +235,55 @@ p{
 }
 
 
+.content-wrapper{
+    border: 3px solid #FCFFE0;
+    width: 20rem;
+    height: 12rem;
+    background-image: url(./image/photo-13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+    box-shadow: 15px 15px  grey;
+    margin-top: 150px;
+    margin-left: 60px;
+    cursor: pointer;
+    
+}
+
+.content-wrapper .info{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 1.2rem;
+
+    /*position:fixed;*/
+}
+
+.content-wrapper .info:hover{
+    transform: scale(1.1rem , 1rem);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.button:hover{
+    transform: scale(1rem, 1.1rem);
+}
+
+
 /*
 @media (max-width:991px) {
     html{
