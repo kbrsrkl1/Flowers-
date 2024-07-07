@@ -244,7 +244,8 @@ p{
 }
 
 .content-wrapper{
-    /*border: 3px solid #FCFFE0;*/
+    position: relative;
+    z-index: 1000;
     width: 20rem;
     height: 12rem;
     background-image: url(./image/photo-14.jpg);
@@ -252,12 +253,13 @@ p{
     background-position: center;
     background-size: cover;
     border-radius: 17px;
-    box-shadow: 10px 10px 20px 5px grey;
+    box-shadow: 10px 10px 25px 5px rgba(79, 77, 77, 0.273);
     
 }
 
 .content-wrapper1{
-    border: 3px solid #FCFFE0;
+    position: relative;
+    z-index: 1000;
     width: 20rem;
     height: 12rem;
     background-image: url(./image/photo-15.jpg);
@@ -265,11 +267,12 @@ p{
     background-position: center;
     background-size: cover;
     border-radius: 17px;
-    box-shadow: 10px 10px 20px 5px grey;
+    box-shadow: 10px 10px 25px 5px rgba(79, 77, 77, 0.273);
 }
 
 .content-wrapper2{
-    border: 3px solid #FCFFE0;
+    position: relative;
+    z-index: 1000;
     width: 20rem;
     height: 12rem;
     background-image: url(./image/photo-13.jpg);
@@ -277,11 +280,12 @@ p{
     background-position: center;
     background-size: cover;
     border-radius: 17px;
-    box-shadow: 10px 10px 20px 5px grey;
+    box-shadow: 10px 10px 25px 5px rgba(79, 77, 77, 0.273);
 }
 
 .content-wrapper3{
-    border: 3px solid #FCFFE0;
+    position: relative;
+    z-index: 1000;
     width: 20rem;
     height: 12rem;
     background-image: url(./image/photo-16.jpg);
@@ -289,7 +293,7 @@ p{
     background-position: center;
     background-size: cover;
     border-radius: 17px;
-    box-shadow: 10px 10px 20px 5px grey;
+    box-shadow: 10px 10px 25px 5px rgba(79, 77, 77, 0.273);
 }
 
 .responsive-img .info{
@@ -298,6 +302,7 @@ p{
     font-size: 1.2rem;
     color: rgba(0, 0, 0, 0.74);
 }
+
 
 
 
