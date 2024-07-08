@@ -328,8 +328,9 @@ p{
     height: 80rem;
     padding: 25px 25px;
     display: flex;
-    gap: 30px;
-    justify-content: flex-start; 
+    padding: 5px 5px;
+    gap: 105px;
+    justify-content: flex; 
 }
 
 
