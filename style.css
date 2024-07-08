@@ -322,14 +322,14 @@ p{
 
 
 .shopping {
-    border: 2px solid red;
-    max-width: 100%;
+    display: grid;
+    flex-wrap: wrap; 
+    justify-content: center; 
     height: 80rem;
     padding: 25px 25px;
     display: flex;
-    flex-wrap: wrap; 
-    gap: 90px;
-    justify-content: center; 
+    gap: 30px;
+    justify-content: flex-start; 
 }
 
 
@@ -342,24 +342,126 @@ p{
     background-position: center;
     background-size: cover;
     border-radius: 17px;
+    position: relative;
 }
 
-.shopping .quality-image .flowers{
-    border: 1px solid rgba(255, 255, 255, 0.18);
+.shopping .flowers{
+    border: 1px solid rgba(255, 255, 255, 0.8);
     border-radius: 17px;
     width: 20rem;
-    height: 3rem;
+    height: 23rem;
     backdrop-filter: blur(4px);
     box-shadow: 0px 0px 10px rgba(227, 228, 237, 0.37);
-    display:fixed;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
-.shopping .quality-image  .flowers:hover{
-    display:none;
+.shopping .quality-image:hover  .flowers{
+    opacity: 1;
+    visibility: visible;
 }
 
 
+.shopping .quality-image1{
+    /*border: 1px solid blue;*/
+    width: 20rem;
+    height: 23rem;
+    background-image: url(./image/photo-5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+    position: relative;
+}
 
+.shopping .quality-image2{
+    /*border: 1px solid blue;*/
+    width: 20rem;
+    height: 23rem;
+    background-image: url(./image/photo-12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+    position: relative;
+}
+
+.shopping .quality-image3{
+    /*border: 1px solid blue;*/
+    width: 20rem;
+    height: 23rem;
+    background-image: url(./image/photo-7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+    position: relative;
+}
+
+.shopping .quality-image4{
+    /*border: 1px solid blue;*/
+    width: 20rem;
+    height: 23rem;
+    background-image: url(./image/photo-8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+    position: relative;
+}
+
+.shopping .quality-image5{
+    /*border: 1px solid blue;*/
+    width: 20rem;
+    height: 23rem;
+    background-image: url(./image/photo-17.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+    position: relative;
+}
+
+.shopping .quality-image6{
+    /*border: 1px solid blue;*/
+    width: 20rem;
+    height: 23rem;
+    background-image: url(./image/photo-10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+    position: relative;
+}
+
+.shopping .quality-image7{
+    /*border: 1px solid blue;*/
+    width: 20rem;
+    height: 23rem;
+    background-image: url(./image/photo-11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+    position: relative;
+}
+
+.shopping .quality-image8{
+    /*border: 1px solid blue;*/
+    width: 20rem;
+    height: 23rem;
+    background-image: url(./image/photo-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+    position: relative;
+}
 
 
 
