@@ -321,9 +321,42 @@ p{
 }
 
 
+.shopping {
+    border: 2px solid red;
+    max-width: 100%;
+    height: 80rem;
+    padding: 25px 25px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 90px;
+    justify-content: center; 
+}
 
 
+.shopping .quality-image{
+    /*border: 1px solid blue;*/
+    width: 20rem;
+    height: 23rem;
+    background-image: url(./image/photo-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+}
 
+.shopping .quality-image .flowers{
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 17px;
+    width: 20rem;
+    height: 3rem;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 0px 10px rgba(227, 228, 237, 0.37);
+    display:fixed;    
+}
+
+.shopping .quality-image  .flowers:hover{
+    display:none;
+}
 
 
 
