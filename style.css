@@ -328,7 +328,7 @@ p{
     height: 80rem;
     padding: 25px 25px;
     display: flex;
-    padding: 5px 5px;
+    padding: 45px 5px;
     gap: 105px;
     justify-content: flex; 
 }
@@ -344,6 +344,8 @@ p{
     background-size: cover;
     border-radius: 17px;
     position: relative;
+    z-index: 1000;
+    box-shadow: 2px 2px 6px 2px rgb(121, 117, 117);
 }
 
 .shopping .flowers{
@@ -368,6 +370,77 @@ p{
 }
 
 
+.shopping .quality-image1:hover  .flowers{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.shopping .quality-image2:hover  .flowers{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.shopping .quality-image3:hover  .flowers{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.shopping .quality-image4:hover  .flowers{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.shopping .quality-image5:hover  .flowers{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.shopping .quality-image6:hover  .flowers{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.shopping .quality-image7:hover  .flowers{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.shopping .quality-image8:hover  .flowers{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.flex{
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 2rem;
+    text-align: center;
+    justify-content: center;
+    text-shadow:1px 1px  rgba(80, 76, 76, 0.962);
+}
+
+h8{
+    color:rgb(43, 39, 41);
+}
+.sale{
+    color: red;
+    font-family:'Times New Roman', Times, serif;
+}
+.sale span{
+    color: #333333;
+    font-size: 14px;
+    text-decoration:line-through;
+}
+
 .shopping .quality-image1{
     /*border: 1px solid blue;*/
     width: 20rem;
@@ -378,6 +451,8 @@ p{
     background-size: cover;
     border-radius: 17px;
     position: relative;
+    z-index: 1000;
+    box-shadow: 2px 2px 6px 2px rgb(121, 117, 117);
 }
 
 .shopping .quality-image2{
@@ -390,6 +465,8 @@ p{
     background-size: cover;
     border-radius: 17px;
     position: relative;
+    z-index: 1000;
+    box-shadow: 2px 2px 6px 2px rgb(121, 117, 117);
 }
 
 .shopping .quality-image3{
@@ -402,6 +479,8 @@ p{
     background-size: cover;
     border-radius: 17px;
     position: relative;
+    z-index: 1000;
+    box-shadow: 2px 2px 6px 2px rgb(121, 117, 117);
 }
 
 .shopping .quality-image4{
@@ -414,6 +493,8 @@ p{
     background-size: cover;
     border-radius: 17px;
     position: relative;
+    z-index: 1000;
+    box-shadow: 2px 2px 6px 2px rgb(121, 117, 117);
 }
 
 .shopping .quality-image5{
@@ -425,7 +506,9 @@ p{
     background-position: center;
     background-size: cover;
     border-radius: 17px;
-    position: relative;
+    position: relative;    
+    z-index: 1000;
+    box-shadow: 2px 2px 6px 2px rgb(121, 117, 117);
 }
 
 .shopping .quality-image6{
@@ -438,6 +521,8 @@ p{
     background-size: cover;
     border-radius: 17px;
     position: relative;
+    z-index: 1000;
+    box-shadow: 2px 2px 6px 2px rgb(121, 117, 117);
 }
 
 .shopping .quality-image7{
@@ -450,6 +535,8 @@ p{
     background-size: cover;
     border-radius: 17px;
     position: relative;
+    z-index: 1000;
+    box-shadow: 2px 2px 6px 2px rgb(121, 117, 117);
 }
 
 .shopping .quality-image8{
@@ -462,6 +549,8 @@ p{
     background-size: cover;
     border-radius: 17px;
     position: relative;
+    z-index: 1000;
+    box-shadow: 1px 1px 6px 2px rgb(121, 117, 117);
 }
 
 
