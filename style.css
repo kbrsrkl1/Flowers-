@@ -419,12 +419,12 @@ p{
 
 .discount{
     font-size: 1.4rem;
-    color: rgb(255, 0, 0);
+    color: rgba(163, 16, 16);
 }
 
 .icons a {
     font-size: 1.3rem;
-    color: rgb(255, 0, 0);
+    color: rgb(163, 16, 16);
 }
 
 .icons .fa-heart{
