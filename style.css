@@ -417,6 +417,15 @@ p{
     visibility: visible;
 }
 
+.discount{
+    font-size: 1.4rem;
+    color: rgb(0, 0, 162);
+}
+
+.icons a{
+    font-size: 1.3rem;
+    color: rgb(41, 41, 173);
+}
 
 
 .flex{
