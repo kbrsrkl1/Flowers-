@@ -576,6 +576,108 @@ h8{
     box-shadow: 1px 1px 6px 2px rgb(121, 117, 117);
 }
 
+.review{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(152, 112, 112);
+    margin: 1rem 0;
+    background-color: rgb(195, 152, 152, .1);
+    margin-top: 60px;
+    width:100% ;
+    padding: 25px 15px;
+}
+
+.review h1{
+    font-size: 2rem;
+}
+
+.review span{
+    color: rgb(66, 11, 20);
+    font-size: 2rem;
+}
+
+
+.box-conta{
+    display: flex;
+    gap: 20px;
+}
+
+.box-conta .profile{
+    /*border: 2px solid red;*/
+    padding: 20px 5px;
+    height: 110%;
+    margin-top: -50px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 2px #605f5f;    
+    position: relative;
+}
+
+.box-conta .profile .stars{
+    color: yellow;
+    font-size: 1.2rem;
+}
+
+.box-conta .profile p{
+    font-size:15px;
+    margin-top: 10px;
+    color: #666;
+}
+
+.box-conta .profile .user{
+    background-image: url(./image/photo-19.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    margin-top: 10px;
+}
+
+.user-info span{
+    margin-left: 7rem;
+    font-size: 17px;
+    white-space: nowrap;
+}
+
+.box-conta .profile .user1{
+    background-image: url(./image/photo-20.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    margin-top: 10px;
+}
+
+.box-conta .profile .user2{
+    background-image: url(./image/photo-18.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    margin-top: 10px;
+}
+
+h1{
+    margin-left: 7rem;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.box-conta .profile .fa-quote-right{
+    font-size: 7rem;
+    margin-left: 21rem;
+    margin-top: -100rem;
+    color: rgba(128, 128, 128, 0.147);
+    transform: rotate(15deg)
+}
+
+
 
 
 /*
