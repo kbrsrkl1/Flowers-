@@ -618,6 +618,7 @@ h8{
 .box-conta .profile .stars{
     color: yellow;
     font-size: 1.2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.842);
 }
 
 .box-conta .profile p{
@@ -675,7 +676,7 @@ h1{
     position:relative;
     font-size: 12rem;
     margin-left: 17rem;
-    color: rgba(128, 128, 128, 0.108);
+    color: rgba(128, 128, 128, 0.175);
     transform: translateY(-190px) rotate(20deg);
 }
 
