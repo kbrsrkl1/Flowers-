@@ -605,12 +605,14 @@ h8{
 
 .box-conta .profile{
     /*border: 2px solid red;*/
-    padding: 20px 5px;
-    height: 110%;
+    padding: 15px 15px;
+    height: 60%;
     margin-top: -50px;
     border-radius: 20px;
     box-shadow: 1px 1px 1px 2px #605f5f;    
     position: relative;
+    overflow: hidden;
+    width: 470px;
 }
 
 .box-conta .profile .stars{
@@ -670,12 +672,13 @@ h1{
 }
 
 .box-conta .profile .fa-quote-right{
-    font-size: 7rem;
-    margin-left: 21rem;
-    margin-top: -100rem;
-    color: rgba(128, 128, 128, 0.147);
-    transform: rotate(15deg)
+    position:relative;
+    font-size: 12rem;
+    margin-left: 17rem;
+    color: rgba(128, 128, 128, 0.108);
+    transform: translateY(-190px) rotate(18deg);
 }
+
 
 
 
