@@ -153,6 +153,10 @@ html{
     color: rgb(66, 11, 20);
 }
 
+.heading h1{
+    font-size: 2.1;
+}
+
 .video-container {
     margin: 0 auto;
     position: relative;
@@ -308,16 +312,20 @@ p{
     text-align: center;
     font-size: 2rem;
     border-radius: 2%;
-    color: rgb(152, 112, 112);
+
     padding: 1rem;
     margin: 1rem 0;
     background-color: rgb(195, 152, 152, .1);
     margin-top: 120px;
 }
 
-.products span{
+.products h1 {
     color: rgb(66, 11, 20);
-    font-size: 2rem;
+    font-size: 2.1rem;
+}
+
+.products h1 span{
+    color: rgb(152, 112, 112); 
 }
 
 
@@ -419,12 +427,12 @@ p{
 
 .discount{
     font-size: 1.4rem;
-    color: rgba(163, 16, 16);
+    color: darkred;
 }
 
 .icons a {
     font-size: 1.3rem;
-    color: rgb(163, 16, 16);
+    color: darkred;
 }
 
 .icons .fa-heart{
@@ -496,7 +504,7 @@ h8{
     /*border: 1px solid blue;*/
     width: 20rem;
     height: 23rem;
-    background-image: url(./image/photo-7.png);
+    background-image: url(./image/photo-7.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -618,7 +626,7 @@ h8{
 .box-conta .profile .stars{
     color: yellow;
     font-size: 1.2rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.842);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.842);
 }
 
 .box-conta .profile p{
@@ -676,10 +684,84 @@ h1{
     position:relative;
     font-size: 12rem;
     margin-left: 17rem;
-    color: rgba(128, 128, 128, 0.175);
+    color: rgba(128, 128, 128, 0.100);
     transform: translateY(-190px) rotate(20deg);
 }
 
+.contact-us{
+    font-size: 2rem;
+    transform: translateY(-190px);
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(152, 112, 112);
+    margin: 1rem 0;
+    background-color: rgb(195, 152, 152, .1);
+    width:100% ;
+    padding: 25px 15px;
+}
+
+.contact-us h1{
+    font-size: 2.1rem;
+}
+
+.contact-us h1 span{
+    color: rgb(66, 11, 20);
+}
+
+.contact-img .row1 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+    transform: translateY(-210px);
+    align-items: center;
+}
+
+
+.contact-img .row1 form{
+    flex: 5 5 20rem;
+    height: 35rem;
+    padding: 2rem 2rem;
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: #fff;
+    border-radius: .7rem;
+}
+
+.contact-img .row1 .image2{
+    flex: 5 5 40rem;
+}
+
+.contact-img .row1 .image2 {
+    border: 1px solid #fff;
+    background-image: url(./image/photo-21.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size:cover;
+    height: 35rem;
+    width: 65px;
+    border-radius: .7rem;
+}
+
+.contact-img .row1 form .box{
+    padding: 1rem;
+    font-size: 1rem;
+    color: #333;
+    text-transform: none;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    margin: .7rem 0;
+    width: 90%;
+}
+
+
+.contact-img .row1 form .box:focus{
+    border-color: rgba(219, 181, 181)
+}
+
+.contact-img .row1 form textarea{
+    height: 10rem;
+    resize: none;    
+}
 
 
 
